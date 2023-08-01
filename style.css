@@ -1,0 +1,15 @@
+body {
+    color: #000;
+    width: 100%;
+    border: 1px solid gray;
+    padding: 10px;
+    background: #e1efbb url(imagem.jfif);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#botaoADD{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#nomeTarefa{
+
+}
