@@ -14,7 +14,7 @@ function salvarTarefa(){
 // FUNÇÃO PARA CRIAR LISTA DE USUÁRIO
 
 function criarLista(){
-let tabela = document.getElementById('tabela').innerHTML = "<tr><th>Nome Usuário</th><th>Ações</th></tr>";
+let tabela = document.getElementById('tabela').innerHTML = "<tr><th>Nome Tarefa</th><th>Ações</th></tr>";
 for(let i = 0;i <= (dadosLista.length - 1);i++){
     tabela += "<tr><td>" + dadosLista[i] + "</td><td><button class='btn btn-success' onclick='editar(this.parentNode.parentNode.rowIndex)'>Editar</button><button class='btn btn-danger'  onclick='finalizar(this.parentNode.parentNode.rowIndex)'>Finalizar</button></td></tr>";
     document.getElementById('tabela').innerHTML = tabela;
